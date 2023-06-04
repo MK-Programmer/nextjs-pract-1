@@ -1,7 +1,7 @@
-import React from 'react'
+import React from 'react';
 import Link from 'next/link'
 
-const index = () => {
+const firstBlog = () => {
   return (
     <>
       <nav className="bg-gray-800">
@@ -51,9 +51,9 @@ const index = () => {
         </div>
       </nav>
 
-      <h1>hey this is index</h1>
+      <div>This is blogs</div>
     </>
   )
 }
 
-export default index
+export default firstBlog
